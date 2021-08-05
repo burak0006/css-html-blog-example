@@ -1,0 +1,118 @@
+.header-background {
+  background-color: #eeeeee;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0px;
+}
+
+.left-img {
+  padding-right: 100px;
+}
+
+.right-img {
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  float: right;
+  display: flex;
+}
+
+.header {
+  padding: 30px;
+  font-size: 25px;
+  color: rgb(96, 96, 103);
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.body-background {
+  background-color: #f2f5f4;
+  display: flex;
+  height: 400px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  margin-top: -40px;
+  color: rgb(96, 96, 103);
+}
+.body-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(96, 96, 103);
+  font-style: italic;
+}
+
+.bottom-body-background {
+  background-color: #ffffff;
+  display: flex;
+  height: 800px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog {
+  border: 10px solid rgb(230, 230, 230);;
+  display:flex;
+  float:left;
+  color: rgb(187, 187, 187);
+  background-color:rgb(230, 230, 230);
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.blog:last-of-type {
+    clear: right;
+  }
+
+.bottom-image {
+    background-color: red
+}
+
+.post-title {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(91, 91, 91);
+    font-style: italic;
+    margin-top:20px;
+}
+
+.post {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:20px;
+    color:rgb(46, 45, 45);
+    text-align: justify;
+}
